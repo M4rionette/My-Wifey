@@ -1,3 +1,6 @@
+document.getElementById("back").addEventListener("click", function() {
+    window.location.href = "main.html";
+});
 $( document ).ready(function() {
     
     var envelope = $('#envelope');
@@ -22,5 +25,4 @@ $( document ).ready(function() {
         envelope.addClass("close")
            .removeClass("open");
     }
-   
 });
